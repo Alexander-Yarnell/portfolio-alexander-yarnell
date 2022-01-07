@@ -1,0 +1,81 @@
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: grid;
+  background-color: #272d3f;
+  min-height: 100%;
+  min-width: 80vw;
+  justify-content: center;
+
+  font-size: calc(10px + 2vmin);
+}
+
+.Projects-title {
+  color: #61e0e8;
+  font-size: 4vw;
+  left: 0;
+}
+
+.Grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 10vw);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  height: 50vh;
+  width: 70vw;
+  gap: 5%;
+  background-color: #272d3f;
+}
+
+.Certificate-img {
+  width: 50vw;
+  filter: drop-shadow(13px 13px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Contact-container {
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.Email {
+  width: 40%;
+
+  border-radius: 25px;
+  background: #3c3f58;
+}
+
+.Email-input{
+  border: none;
+  width: 90%;
+  background: #3c3f58;
+}
+
+.Subject {
+  margin-top: 1vh;
+  height: 20vh;
+  width: 80%;
+  background: #3c3f58;
+  border-radius: 25px;
+}
+.Subject-input{
+   width: 90%;
+  height: 20vh;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  background: #3c3f58;
+  font-size: 16px;
+  resize: none;
+  font-size: 1vw;
+}
+

@@ -1,0 +1,27 @@
+import React from "react";
+
+function Card(props) {
+  return (
+    <div class="card" style={{ width: "18rem", minHeight: "19rem", maxHeight: "19rem }}>
+      <img src={props.img} class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title" style={{ color: "black" }}>
+          {props.title}
+        </h5>
+        <p class="card-text" style={{ color: "black" }}>
+          {props.text}
+        </p>
+        <div className="button-container">
+          <a href={props.demo} class="btn btn-primary">
+            Demo
+          </a>
+          <a href={props.github} class="btn btn-primary">
+            Github
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Card;
