@@ -23,10 +23,9 @@ function Hero() {
               Full Stack Web Developer
             </h1>
             <p className="lead" style={{ color: "#AFAFAF" }}>
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Hello, my name is Alexander Yarnell. I am an MIT certifide Full Stack Web Developer. 
+              With a firm understanding of ES6 JavaScript, and the ability to quickly learn, adaptive, and overcome any challenges thrown my way.
+
             </p>
             <div className="d-grid gap-2 d-md-flex justify-content-md-center">
               <a
